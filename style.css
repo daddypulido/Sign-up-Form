@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+  }  
+
+  @font-face {
+    font-family: norse;
+    src: url(/Norse-Bold\(1\).otf);
+  }
+html,body{
+  height:100% ;
+}
+.container{
+    display: flex;
+  height: 100%;
+    background-color: red;
+}
+
+.left-side{
+display: flex;
+
+}
+
+#leaf{
+  width:600px;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+background-color: white;
+flex: auto;
+
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+
+}
+
+.text {
+   font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h1{
+  margin-left: 50px;
+  margin-top:20px;
+  margin-bottom:20px
+}
+
+.signUpContainer{
+  display:flex;
+ margin-left: 50px;
+
+}
+
+.top-row, .middle-row , .bottom-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 20px;
+}
+
+
+.first_name , .last_name ,
+.email , .phone , .password{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  border: 2px solid rgba(20, 70, 67, 0.699);
+  border-radius: 5px;
+}
+button{
+
+  background-color:#fff;
+  width:300px;
+  height: 40px;
+  border:2px solid rgba(20, 70, 67, 0.699);
+  border-radius:5px;
+  padding: 5px;
+}
+button:hover{
+  background-color:  rgba(20, 70, 67, 0.699);
+  cursor: pointer;
+}
+
+
+.odinBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 150px;
+  width: 600px;
+  height: 200px;
+  background-color:rgba(0, 0, 0, 0.596)
+}
+#odinLogo {
+  width :150px;
+ 
+}
+.odinText {
+  display: in;
+  color:white;
+  font-family:norse; 
+  font-size: 80px;
+
+;
+}
